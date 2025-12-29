@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Decision Graveyard</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <h1>🪦 Decision Graveyard</h1>
+
+    <div class="card">
+      <input id="title" placeholder="Decision you didn't take" />
+      <input id="date" type="date" />
+      <textarea id="path" placeholder="What happened instead?"></textarea>
+      <textarea id="reflection" placeholder="Reflection"></textarea>
+      <button onclick="saveDecision()">Save</button>
+    </div>
+
+    <h2>Timeline</h2>
+    <div id="timeline"></div>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
